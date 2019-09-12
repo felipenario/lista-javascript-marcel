@@ -1,0 +1,1 @@
+Uma variável undefined é uma variável já declarada porém sem valor atribuído a ela, enquanto que uma varíavel com o valor Null tem um objeto tipo Null como seu valor.

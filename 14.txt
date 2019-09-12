@@ -1,0 +1,7 @@
+A.0
+B. False
+C. True
+D. "Undefined"
+E. True
+F. False
+G. Inteiro ou ponto flutuante
