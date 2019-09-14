@@ -7,7 +7,7 @@ function calculoVetor() {
     }
 
     for (i = 0; i < 50; i++) {
-        array.push(pegarNumeroAleatorio(0, 50));
+        array.push(pegarNumeroAleatorio(0, 50).toFixed());
     }
 
     console.log(array);

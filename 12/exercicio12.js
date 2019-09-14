@@ -1,20 +1,20 @@
 function calculoVirgula() {
 
-    var inputValores = document.querySelector("#numero");
+    let inputValores = document.querySelector("#numero");
 
-    var resultado = document.querySelector("#resultado");
+    let resultado = document.querySelector("#resultado");
 
-    var resultado2 = document.querySelector("#resultado2");
+    let resultado2 = document.querySelector("#resultado2");
 
-    var valores = inputValores.value;
+    let valores = inputValores.value;
 
-    var vetorValores = valores.split(",");
+    let vetorValores = valores.split(",");
 
-    var conversaoVetor = vetorValores.map(function(x) {
+    let conversaoVetor = vetorValores.map(function(x) {
         return parseInt(x, 10);
     });
 
-    var vetorInvertido = vetorValores.reverse();
+    let vetorInvertido = vetorValores.reverse();
 
     console.log("Original: " + valores);
     console.log("Invertido: " + vetorInvertido);

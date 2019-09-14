@@ -1,12 +1,12 @@
 function calculoVirgula() {
 
-    var inputValores = document.querySelector("#numero");
+    let inputValores = document.querySelector("#numero");
 
-    var resultado = document.querySelector("#resultado");
+    let resultado = document.querySelector("#resultado");
 
-    var valores = inputValores.value;
+    let valores = inputValores.value;
 
-    var vetorValores = valores.split(",");
+    let vetorValores = valores.split(",");
 
 
 
@@ -21,6 +21,14 @@ function calculoVirgula() {
         }
 
     }
+
+    /* checagem por filter
+    let vetorPar = vetorValores.filter(elemento => elemento % 2 == 0);
+    let vetorImpar = vetorValores.filter(elemento => elemento % 2 != 0);
+    console.log("Par: " + vetorPar);
+    console.log("Impar: " + vetorImpar);
+     
+     */
 
     vetorValores.forEach(checarParImpar);
 

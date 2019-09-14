@@ -1,18 +1,18 @@
 function calculoVirgula() {
 
-    var inputValores = document.querySelector("#numero");
+    let inputValores = document.querySelector("#numero");
 
-    var resultado = document.querySelector("resultado");
+    let resultado = document.querySelector("resultado");
 
-    var valores = inputValores.value;
+    let valores = inputValores.value;
 
-    var vetorValores = valores.split(",");
+    let vetorValores = valores.split(",");
 
-    var maior = 0;
+    let maior = 0;
 
-    var menor = 0;
+    let menor = 0;
 
-    var conversaoVetor = vetorValores.map(function(x) {
+    let conversaoVetor = vetorValores.map(function(x) {
         return parseInt(x, 10);
     });
 
@@ -21,7 +21,7 @@ function calculoVirgula() {
         if (index == 0) {
             maior = elemento;
             menor = elemento;
-            
+
         }
         if (elemento > maior) {
             maior = elemento;
@@ -36,6 +36,6 @@ function calculoVirgula() {
 
     console.log("Maior: " + maior);
     console.log("Menor: " + menor);
- 
+
 
 }

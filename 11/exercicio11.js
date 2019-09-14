@@ -1,18 +1,18 @@
 function calculoVirgula() {
 
-    var inputValores = document.querySelector("#numero");
+    let inputValores = document.querySelector("#numero");
 
-    var resultado = document.querySelector("#resultado");
+    let resultado = document.querySelector("#resultado");
 
-    var valores = inputValores.value;
+    let valores = inputValores.value;
 
-    var vetorValores = valores.split(",");
+    let vetorValores = valores.split(",");
 
-    var soma = 0;
+    let soma = 0;
 
-    var media = 0;
+    let media = 0;
 
-    var conversaoVetor = vetorValores.map(function(x) {
+    let conversaoVetor = vetorValores.map(function(x) {
         return parseInt(x, 10);
     });
 
